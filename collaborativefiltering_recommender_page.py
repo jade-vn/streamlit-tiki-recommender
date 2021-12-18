@@ -11,8 +11,13 @@ import os
 import streamlit as st
 import io
 
-os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
-os.environ["SPARK_HOME"] = "/content/spark-2.4.0-bin-hadoop2.7"
+#os.environ["JAVA_HOME"] = "/usr/lib/jvm/java-8-openjdk-amd64"
+#os.environ["SPARK_HOME"] = "/content/spark-2.4.0-bin-hadoop2.7"
+#os.environ["HADOOP_HOME"] = "/content/spark-2.4.0-bin-hadoop2.7"
+
+for var in os.environ():
+    print(var,':',os.environ[var])
+
 findspark.init()
 
 
