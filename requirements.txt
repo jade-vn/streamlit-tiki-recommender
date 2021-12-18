@@ -1,11 +1,11 @@
-#findspark
+findspark
 gensim
 jieba
 matplotlib
 numpy
 pandas
 pandas-profiling==2.7.1
-#pyspark
+pyspark
 sklearn
 streamlit
 streamlit-pandas-profiling

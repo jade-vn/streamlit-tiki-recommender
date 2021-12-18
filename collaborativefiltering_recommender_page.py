@@ -1,12 +1,12 @@
 
-from pyspark.sql.functions import col, explode
-from pyspark.sql.functions import isnull, when, count, col
-from pyspark.sql.types import IntegerType, DoubleType
-from pyspark import SparkContext
-from pyspark.sql import SQLContext
-from pyspark.sql import SparkSession
-import pyspark
-import findspark
+# from pyspark.sql.functions import col, explode
+# from pyspark.sql.functions import isnull, when, count, col
+# from pyspark.sql.types import IntegerType, DoubleType
+# from pyspark import SparkContext
+# from pyspark.sql import SQLContext
+# from pyspark.sql import SparkSession
+# import pyspark
+# import findspark
 import os
 import streamlit as st
 import io
@@ -16,7 +16,7 @@ import io
 #os.environ["HADOOP_HOME"] = "/content/spark-2.4.0-bin-hadoop2.7"
 
 for var in os.environ():
-    print(var,':',os.environ[var])
+    print(var, ':', os.environ[var])
 
 findspark.init()
 
