@@ -15,8 +15,7 @@ import io
 #os.environ["SPARK_HOME"] = "/content/spark-2.4.0-bin-hadoop2.7"
 #os.environ["HADOOP_HOME"] = "/content/spark-2.4.0-bin-hadoop2.7"
 
-for var in os.environ():
-    print(var, ':', os.environ[var])
+st.write(os.environ)
 
 # findspark.init()
 
