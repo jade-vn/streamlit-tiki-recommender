@@ -18,7 +18,7 @@ import io
 for var in os.environ():
     print(var, ':', os.environ[var])
 
-findspark.init()
+# findspark.init()
 
 
 def loadCollaborativeFiltering_Recommender():

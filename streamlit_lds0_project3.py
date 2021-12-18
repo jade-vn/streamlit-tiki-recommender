@@ -39,4 +39,5 @@ elif (page == "ContentBased GenSim"):
     loadContentBasedGenSim()
 
 else:
-    loadCollaborativeFiltering_Recommender()
+    # loadCollaborativeFiltering_Recommender()
+    st.write("TBD")
